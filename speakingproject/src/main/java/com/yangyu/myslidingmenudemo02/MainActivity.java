@@ -79,99 +79,6 @@ public class MainActivity extends FragmentActivity {
 	TextView description;
 	public static String[] menu_sentences = new String[6];
 	private SimpleAdapter adapter;
-
-
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-
-		DBManager dbHelper;
-		dbHelper = new DBManager(this);
-		dbHelper.openDatabase();
-		dbHelper.closeDatabase();
-
-		speaker = new Speaker(this);
-
-		db = SQLiteDatabase.openOrCreateDatabase(DBManager.DB_PATH + "/" + DBManager.DB_NAME, null);
-	    /*  if null -> new  */
-		sentenceStructure = new Sentence();
-
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.content_frame);
-		this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-		sentence = (EditText) findViewById(R.id.editText);
-		sentence.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent m) {
-				Layout layout = ((EditText) v).getLayout();
-				float x = m.getX() + sentence.getScrollX();
-				int offset = layout.getOffsetForHorizontal(0, x);
-				if (offset > 0) {
-					if (x > layout.getLineMax(0))
-						sentence.setSelection(offset);
-					else
-						sentence.setSelection(offset - 1);
-				}
-				return true;
-			}
-		});
-		sentence.setSelection(sentence.length());
-
-		setting = (ImageView)findViewById(R.id.setting);
-		voice = (ImageView)findViewById(R.id.voice);
-		keypad = (ImageView)findViewById(R.id.keypad);
-		back = (ImageView)findViewById(R.id.back);
-		tmplayout = (LinearLayout) findViewById(R.id.fragment1);
-		menu_icon = (ImageView)findViewById(R.id.menu_icon);
-		setting.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent intent = new Intent();
-				stopIconAnimation();
-				intent.setClass(MainActivity.this, Setting.class);
-				startActivity(intent);
-			}
-		});
-		voice.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				speaker.speaking(sentence.getText().toString());
-			}
-		});
-		keypad.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-				if(!keyboard){
-					imm.showSoftInput(sentence, InputMethodManager.SHOW_IMPLICIT);
-					keyboard = true;
-				}
-				else{
-					imm.hideSoftInputFromWindow(sentence.getWindowToken(), 0);
-					keyboard = false;
-				}
-			}
-		});
-		back.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				deleteonSentence();
-			}
-		});
-		initmenuSentences();
-		initSlidingMenu();
-		initScroll_words();
-		initLayerHeight();
-		initIconAnimation();
-		initSetting();
-
-		menu_icon.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				menu.showMenu(true);
-			}
-		});
-	}
 	
 	@Override
     protected void onStop(){
@@ -199,7 +106,97 @@ public class MainActivity extends FragmentActivity {
 		initScroll_words();	
 	}*/
 
-
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		DBManager dbHelper;
+		dbHelper = new DBManager(this);
+	    dbHelper.openDatabase();
+	    dbHelper.closeDatabase();
+	    
+	    speaker = new Speaker(this);
+	    
+	    db = SQLiteDatabase.openOrCreateDatabase(DBManager.DB_PATH + "/" + DBManager.DB_NAME, null);
+	    /*  if null -> new  */
+	    sentenceStructure = new Sentence();		
+		
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.content_frame);
+		 this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+        sentence = (EditText) findViewById(R.id.editText);
+        sentence.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View v, MotionEvent m) {
+				Layout layout = ((EditText) v).getLayout();
+				float x = m.getX() + sentence.getScrollX();
+				int offset = layout.getOffsetForHorizontal(0, x);
+				if (offset > 0) {
+					if (x > layout.getLineMax(0))
+						sentence.setSelection(offset);
+					else
+						sentence.setSelection(offset - 1);
+				}
+				return true;
+			}
+		});
+        sentence.setSelection(sentence.length());
+        
+        setting = (ImageView)findViewById(R.id.setting);
+        voice = (ImageView)findViewById(R.id.voice);
+        keypad = (ImageView)findViewById(R.id.keypad);
+        back = (ImageView)findViewById(R.id.back);
+        tmplayout = (LinearLayout) findViewById(R.id.fragment1);
+        menu_icon = (ImageView)findViewById(R.id.menu_icon);
+        setting.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent();
+				stopIconAnimation();
+		        intent.setClass(MainActivity.this, Setting.class);
+		        startActivity(intent);
+			}
+		});
+        voice.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				speaker.speaking(sentence.getText().toString());
+			}
+		});
+        keypad.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+				if(!keyboard){		
+					imm.showSoftInput(sentence, InputMethodManager.SHOW_IMPLICIT);
+					keyboard = true;
+				}
+				else{
+					imm.hideSoftInputFromWindow(sentence.getWindowToken(), 0);
+					keyboard = false;
+				}
+			}
+		});
+        back.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				deleteonSentence();
+			}
+		});
+        initmenuSentences();
+		initSlidingMenu();
+		initScroll_words();	     
+	    initLayerHeight();
+	    initIconAnimation();
+	    initSetting();
+	    
+	    menu_icon.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				menu.showMenu(true);
+			}
+		});
+	}
 	private void initmenuSentences() {
 		/*menu_sentences{"救命","我想喝水","我想上廁所","我肚子餓了","你今天過得怎樣","你好嗎"}*/
     	SharedPreferences menu_settings = getSharedPreferences("menu_sentences", 0);
@@ -218,25 +215,25 @@ public class MainActivity extends FragmentActivity {
 	    boolean is_Setted = settings.getBoolean("UserSetting", false);
 	    //if(is_Setted == true){
 	    	pitch_pos = settings.getInt("pitch_pos", 2);
-	    	speed_pos =  settings.getInt("speed_pos", 0);
+	    	speed_pos =  settings.getInt("speed_pos", 2);
 	    	speaker_pos = settings.getInt("speaker_pos", 0);
 	    	speaker_style_pos = settings.getInt("speaker_style_pos", 0);
 	    	float fPitch = 1.0f;
 			switch(pitch_pos)
         	{
-        		case 0:	fPitch=0.5f;break;
-        		case 1:	fPitch=0.75f;break;
-        		case 2:	fPitch=1.0f;break;
+        		case 0:	fPitch=0.5f;	break;
+        		case 1:	fPitch=0.75f;	break;
+        		case 2:	fPitch=1.0f;	break;
         		case 3: fPitch=1.5f;	break;
         		case 4: fPitch=2.0f;	break;
         	}
 			
-	    	float fSpeed = 0.5f;
+	    	float fSpeed = 1.0f;
 	    	switch(speed_pos)
         	{
-        	case 0:	fSpeed=0.5f;break;
-        	case 1:	fSpeed=0.75f;break;
-        	case 2:	fSpeed=1.0f;break;
+        	case 0:	fSpeed=0.5f;	break;
+        	case 1:	fSpeed=0.75f;	break;
+        	case 2:	fSpeed=1.0f;	break;
         	case 3: fSpeed=1.5f;	break;
         	case 4: fSpeed=2.0f;	break;
         	}
@@ -500,11 +497,9 @@ public class MainActivity extends FragmentActivity {
 		}
 		else{
 			int start = sentence.getSelectionStart();
-			if(start > 0) {
-				String newSentence = sentence.getText().delete(start - 1, start).toString();
-				sentence.setText(newSentence);
-				sentence.setSelection(start - 1);
-			}
+			String newSentence = sentence.getText().delete(start-1, start).toString();
+			sentence.setText(newSentence);
+			sentence.setSelection(start -1);
 		}
 	}
 	public static void saveCategory(String cate01 , String cate02){

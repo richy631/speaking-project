@@ -572,5 +572,579 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 19,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 830,
+                        "endLine": 31,
+                        "endColumn": 19,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 122,
+                    "endLine": 11,
+                    "endColumn": 19,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 330,
+                        "endLine": 16,
+                        "endColumn": 19,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 292,
+                    "endLine": 15,
+                    "endColumn": 19,
+                    "endOffset": 390
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 221,
+                        "endLine": 9,
+                        "endColumn": 19,
+                        "endOffset": 324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endLine": 22,
+                    "endColumn": 19,
+                    "endOffset": 560
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 565,
+                    "endLine": 27,
+                    "endColumn": 19,
+                    "endOffset": 688
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 694,
+                        "endLine": 28,
+                        "endColumn": 19,
+                        "endOffset": 824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 693,
+                    "endColumn": 36,
+                    "endOffset": 725
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 36,
+                        "endOffset": 238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 730,
+                    "endColumn": 35,
+                    "endOffset": 761
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 35,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 766,
+                    "endColumn": 45,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 289,
+                        "endColumn": 45,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 43,
+                    "endOffset": 851
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 244,
+                        "endColumn": 43,
+                        "endOffset": 283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 856,
+                    "endColumn": 36,
+                    "endOffset": 888
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 93,
+                        "endColumn": 36,
+                        "endOffset": 125
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 893,
+                    "endColumn": 43,
+                    "endOffset": 932
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 5,
+                        "startOffset": 337,
+                        "endColumn": 44,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 937,
+                    "endColumn": 34,
+                    "endOffset": 967
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 34,
+                        "endOffset": 87
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 972,
+                    "endColumn": 45,
+                    "endOffset": 1013
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 5,
+                        "startOffset": 383,
+                        "endColumn": 46,
+                        "endOffset": 424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1018,
+                    "endColumn": 51,
+                    "endOffset": 1065
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 5,
+                        "startOffset": 431,
+                        "endColumn": 52,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1070,
+                    "endColumn": 36,
+                    "endOffset": 1102
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 36,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2120,
+                    "endColumn": 57,
+                    "endOffset": 2173
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2178,
+                    "endColumn": 55,
+                    "endOffset": 2229
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2234,
+                    "endColumn": 43,
+                    "endOffset": 2273
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 43,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2278,
+                    "endColumn": 43,
+                    "endOffset": 2317
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 43,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2322,
+                    "endColumn": 49,
+                    "endOffset": 2367
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 5,
+                        "startOffset": 209,
+                        "endColumn": 50,
+                        "endOffset": 254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2372,
+                    "endColumn": 42,
+                    "endOffset": 2410
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\exploded-aar\\speaking-project\\library\\unspecified\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 961,
+                        "endColumn": 42,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2415,
+                    "endColumn": 40,
+                    "endOffset": 2451
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 352,
+                        "endColumn": 40,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2456,
+                    "endColumn": 52,
+                    "endOffset": 2504
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 113,
+                        "endColumn": 52,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2509,
+                    "endColumn": 52,
+                    "endOffset": 2557
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 52,
+                        "endOffset": 107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2562,
+                    "endColumn": 52,
+                    "endOffset": 2610
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 167,
+                        "endColumn": 52,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2615,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 2901
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2906,
+                    "endLine": 59,
+                    "endColumn": 12,
+                    "endOffset": 3061
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3066,
+                    "endLine": 73,
+                    "endColumn": 8,
+                    "endOffset": 3646
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endLine": 32,
+                        "endColumn": 8,
+                        "endOffset": 1284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 3651,
+                    "endLine": 84,
+                    "endColumn": 12,
+                    "endOffset": 4177
+                },
+                "from": {
+                    "file": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 1286,
+                        "endLine": 43,
+                        "endColumn": 12,
+                        "endOffset": 1822
+                    }
+                }
+            }
+        ]
     }
 ]

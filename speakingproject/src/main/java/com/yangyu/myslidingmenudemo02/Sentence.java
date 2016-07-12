@@ -31,20 +31,20 @@ public class Sentence {
 			this.sentence.add(w);
 			this.loc.add(len);
 		}
-		else if(len-w.getWord().length() == this.loc.get(this.loc.size()-1)){ //
+		else if(len-w.getWord().length() == this.loc.get(this.loc.size()-1)){ //插在最後面
 			this.sentence.add(w);
 			this.loc.add(len);
 		}
-		/*else if(len < this.loc.get(this.loc.size()-1)){ //
+		/*else if(len < this.loc.get(this.loc.size()-1)){ // 插中間
 			for(int i = 0; i < this.loc.size(); i++){
-				if(this.loc.get(i) == len){ //
+				if(this.loc.get(i) == len){ // 剛好
 					this.sentence.add(i + 1, w);
 					this.loc.add(i + 1, w.getWord().length() + len);
 					for(int j = i + 2; j < this.loc.size(); j++){
 						this.loc.set(j, this.loc.get(j) + w.getWord().length());
 					}
 				}
-				else if(this.loc.get(i) > len){ //
+				else if(this.loc.get(i) > len){ // 不剛好
 					
 				}
 			}

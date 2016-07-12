@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Android_project\speaking-project\speakingproject\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4cd07c5f8dfe54a5cb3e410066762116eb86f430">
+        <dex dex="D:\Android_project\speaking-project\speakingproject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1adb894dfa804cb0688549223842f8fcf0c682bb\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android_project\speaking-project\speakingproject\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6dc486206e1ad36e5eab8109bb5e33d61fc68d63">
+        <dex dex="D:\Android_project\speaking-project\speakingproject\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_90d3b1f4000513af1cadfa5e18ef5a76b26f4aa3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android_SDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Android_project\speaking-project\speakingproject\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_f8058bc364f05292e85f9ac9afb66987c56080da\classes.dex" />
+    </item>
+
+</items>

@@ -29,17 +29,16 @@ TextToSpeech.OnInitListener, TextToSpeech.OnUtteranceCompletedListener{
 	private int MY_DATA_CHECK_CODE = 0;
 
 	//Parameters Setting
-	private float fPitch = 1.0f;
-    private static float fSpeed = 0.5f;
-    private int intSpeaker = 1;		//1:man, 2:woman, 3:girl
-    private String TTSLanguage = "Mandarin";  //or "English"
+	private float  fPitch          = 1.0f;
+    private float  fSpeed          = 1.0f;
+    private int    intSpeaker      = 1;           //1:man, 2:woman, 3:girl
+    private String TTSLanguage     = "Mandarin";  //or "English"
 	//private String SynthesizedFile = "/sdcard/tts_syn_sound.wav";
 	private String LicenseFile     = "/sdcard/uTTS4NTHUCS/License.dat";
 	public Speaker(Context c){
 		WriteLicenseFile();
 		thisContext = c;
 		mTts = new TextToSpeech(c, this, "tw.nthucs.tts");
-
 	}
 	
 	@Override
@@ -74,48 +73,47 @@ TextToSpeech.OnInitListener, TextToSpeech.OnUtteranceCompletedListener{
 	}
 	
 	// write license file
-	private void WriteLicenseFile() {
-		// Create a valid license for the usage of uTTS engine (TextToSpeech)
-		byte[] bytesBuffer = { 0x07, 0x1A, 0x1C, 0x07, 0x0F, 0x1A, 0x0D, 0x1A,
-				0x1A, 0x1D, 0x18, 0x7F, 0x00, 0x1A, 0x06, 0x1B, 0x0D, 0x1D,
-				0x4E };
+		private void WriteLicenseFile() {
+			// Create a valid license for the usage of uTTS engine (TextToSpeech)
+			byte[] bytesBuffer = { 0x07, 0x1A, 0x1C, 0x07, 0x0F, 0x1A, 0x0D, 0x1A,
+					0x1A, 0x1D, 0x18, 0x7F, 0x00, 0x1A, 0x06, 0x1B, 0x0D, 0x1D,
+					0x4E };
 
-		File file = new File(LicenseFile);
-		try {
-			FileOutputStream file_out = new FileOutputStream(file);
-			DataOutputStream data_out = new DataOutputStream(file_out);
-			data_out.write(bytesBuffer, 0, bytesBuffer.length);
-			data_out.close();
-			file_out.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-	private static void ttsSpeak(String text)
-	{
-		HashMap<String, String> myHashAlarm = new HashMap<String, String>();
-		myHashAlarm.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "TTS_Finished_Message_ID");
-		mTts.speak(text, TextToSpeech.QUEUE_FLUSH, myHashAlarm);
-		mTts.setSpeechRate(fSpeed);
-	}
-
- 	// Timer Implementation
-	private Runnable TimerRunning = new Runnable() {
-		public void run() {
-			if (TTSfinished) {
-				Toast.makeText(thisContext, "TTS Finished!", Toast.LENGTH_SHORT).show();
-				TTSfinished = false;
+			File file = new File(LicenseFile);
+			try {
+				FileOutputStream file_out = new FileOutputStream(file);
+				DataOutputStream data_out = new DataOutputStream(file_out);
+				data_out.write(bytesBuffer, 0, bytesBuffer.length);
+				data_out.close();
+				file_out.close();
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
-			handler.postDelayed(this, 100);
 		}
-	};
-
-	public void speaking(String text){
-		Log.d("speech text", text);
-		ttsSpeak(text);
-	}
+	   
+	    private static void ttsSpeak(String text)
+	    {
+			HashMap<String, String> myHashAlarm = new HashMap<String, String>();
+			myHashAlarm.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "TTS_Finished_Message_ID");
+			mTts.speak(text, TextToSpeech.QUEUE_FLUSH, myHashAlarm);
+	    }
+	    
+	 // Timer Implementation
+		private Runnable TimerRunning = new Runnable() {
+			public void run() {
+				if (TTSfinished) {
+					Toast.makeText(thisContext, "TTS Finished!", Toast.LENGTH_SHORT).show();
+					TTSfinished = false;
+				}
+				handler.postDelayed(this, 100);
+			}
+		};
+		
+		public void speaking(String text){
+			Log.d("speech text", text);
+			ttsSpeak(text);
+		}
 
 }

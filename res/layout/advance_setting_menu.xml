@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4" >
+
+		<LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    >
+		    <TextView
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:textSize="25sp"
+		    	android:text="聲音種類"
+		    	android:layout_weight="1"
+		        />
+		    <Spinner
+		        android:id="@+id/spinner_speaker"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+			   	android:layout_weight="1" />
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    >
+		    <TextView
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:textSize="25sp"
+		    	android:text="音調高低"
+		    	android:layout_weight="1"
+		        />
+		    <Spinner
+		        android:id="@+id/spinner_pitch"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+			   	android:layout_weight="1" />
+	    </LinearLayout>
+	    
+	     <LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    >
+		    <TextView
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:textSize="25sp"
+		    	android:text="聲音速度"
+		    	android:layout_weight="1"
+		        />
+		    <Spinner
+		        android:id="@+id/spinner_speed"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+			   	android:layout_weight="1" />
+	    </LinearLayout>
+	     <LinearLayout 
+		    android:orientation="horizontal"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    >
+		    <TextView
+		        android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:textSize="25sp"
+		    	android:text="調整語調"
+		    	android:layout_weight="1"
+		        />
+		    <Spinner
+		        android:id="@+id/spinner_style"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+			   	android:layout_weight="1" />
+	    </LinearLayout>
+    
+
+
+</LinearLayout>

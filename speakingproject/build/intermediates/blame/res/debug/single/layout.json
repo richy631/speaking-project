@@ -12,32 +12,28 @@
         "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\expandable_list_item.xml"
     },
     {
-        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\single_expandable_list.xml",
-        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\single_expandable_list.xml"
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\test.xml"
     },
     {
-        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\second_scene.xml",
-        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\second_scene.xml"
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\advance_setting_menu.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\advance_setting_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\second_scene.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\second_scene.xml"
     },
     {
         "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\advance_setting_menu.xml",
         "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\advance_setting_menu.xml"
     },
     {
-        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame.xml",
-        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\menu_frame.xml"
-    },
-    {
-        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\setences_in_menu.xml",
-        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\setences_in_menu.xml"
-    },
-    {
         "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\scene_select_menu.xml",
         "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\scene_select_menu.xml"
-    },
-    {
-        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
-        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\test.xml"
     },
     {
         "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\test2.xml",
@@ -48,7 +44,63 @@
         "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\setting.xml"
     },
     {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\content_frame.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\content_frame.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\single_expandable_list.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\single_expandable_list.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\expandable_list_item.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\expandable_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\setences_in_menu.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\setences_in_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\single_expandable_list.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\single_expandable_list.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\second_scene.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\second_scene.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\menu_frame.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\menu_frame.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\adapter.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\adapter.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\setences_in_menu.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\setences_in_menu.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\test2.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\test2.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\scene_select_menu.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\src\\main\\res\\layout\\scene_select_menu.xml"
+    },
+    {
         "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\content_frame.xml",
         "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\layout\\content_frame.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "D:\\Android_project\\speaking-project\\speakingproject\\build\\intermediates\\exploded-aar\\speaking-project\\library\\unspecified\\res\\layout\\slidingmenumain.xml"
     }
 ]

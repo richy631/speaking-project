@@ -134,7 +134,7 @@ public class advance_setting extends Fragment{
 		        	switch(pos)
 		        	{
 		        		case 0:	fPitch=0.5f;	break;
-		        		case 1:	fPitch=0.75f;break;
+		        		case 1:	fPitch=0.75f;	break;
 		        		case 2:	fPitch=1.0f;	break;
 		        		case 3: fPitch=1.5f;	break;
 		        		case 4: fPitch=2.0f;	break;

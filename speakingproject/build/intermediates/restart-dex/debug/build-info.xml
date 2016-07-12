@@ -4,34 +4,29 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="331570068232892" >
+    timestamp="344652267898231" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="98210" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="97427" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3914" />
 
     <artifact
-        location="D:\Android_project\speaking-project4\speakingproject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
+        location="D:\Android_project\speaking-project\speakingproject\build\outputs\apk\speakingproject-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="330517823736464" >
+    <build timestamp="344652267898231" >
         <artifact
-            location="D:\Android_project\speaking-project4\speakingproject\build\outputs\apk\speakingproject-debug.apk"
+            location="D:\Android_project\speaking-project\speakingproject\build\outputs\apk\speakingproject-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="331570068232892" >
-        <artifact
-            location="D:\Android_project\speaking-project4\speakingproject\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
