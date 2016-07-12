@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/qq"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <ScrollView
+      android:id="@+id/scroll_scene" 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+      <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">
+		    <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">
+			    <Button
+			      android:layout_width="fill_parent"
+			      android:layout_height="70dp"
+			      android:text="全部"
+			      android:background="#ff9933"
+			      android:id="@+id/cate00" />
+		    </LinearLayout>
+		     
+		     <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate01_layout"
+		    android:orientation="vertical">
+			   <Button
+			      android:layout_width="fill_parent"
+			      android:layout_height="70dp"
+			      android:text="生活"
+			      android:background="#ff6699"
+			      android:id="@+id/cate01" />
+			    <LinearLayout  android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:id="@+id/cate01_open"
+				    android:tag="1">
+			          
+			      </LinearLayout>
+		</LinearLayout>
+		  <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate02_layout"
+		    android:orientation="vertical">
+			   <Button
+			      android:layout_width="fill_parent"
+			      android:layout_height="70dp"
+			      android:text="交通"
+			      android:background="#ff0099"
+			      android:id="@+id/cate02" />
+			    <LinearLayout  android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:id="@+id/cate02_open"
+				    android:tag="2">
+			          
+			      </LinearLayout>
+			  </LinearLayout>
+			<LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate03_layout"
+		    android:orientation="vertical">
+			     <Button
+			      android:layout_width="fill_parent"
+			      android:layout_height="70dp"
+			      android:text="醫療"
+			      android:background="#cc3333"
+			      android:id="@+id/cate03" />
+			      <LinearLayout  android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:id="@+id/cate03_open"
+				    android:tag="3">
+			          
+			      </LinearLayout>
+			     </LinearLayout>
+			    <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate04_layout"
+		    android:orientation="vertical">
+			       <Button
+			      android:layout_width="fill_parent"
+			      android:layout_height="70dp"
+			      android:text="運動"
+			      android:background="#cc33cc"
+			      android:id="@+id/cate04" />
+			        <LinearLayout  android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:id="@+id/cate04_open"
+				    android:tag="4">
+			          
+			      </LinearLayout>
+			  </LinearLayout>
+			  
+			    
+			    <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate05_layout"
+		    android:orientation="vertical">
+			         <Button
+			      android:layout_width="fill_parent"
+			      android:layout_height="70dp"
+			      android:text="食"
+			      android:background="#99ff99"
+			      android:id="@+id/cate05" />
+			          <LinearLayout  android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:id="@+id/cate05_open"
+				    android:tag="5">
+			          
+			      </LinearLayout>
+			     </LinearLayout>
+			      <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate06_layout"
+		    android:orientation="vertical">
+		           <Button
+		      android:layout_width="fill_parent"
+		      android:layout_height="70dp"
+		      android:text="休閒"
+		      android:background="#6699ff"
+		      android:id="@+id/cate06" />
+		            <LinearLayout  android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:id="@+id/cate06_open"
+			    android:tag="6">
+		     
+		      </LinearLayout>
+		      </LinearLayout>
+		       <LinearLayout  android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:id="@+id/cate07_layout"
+		    android:orientation="vertical">
+		            </LinearLayout>
+           </LinearLayout>
+</ScrollView>
+    
+
+</LinearLayout>

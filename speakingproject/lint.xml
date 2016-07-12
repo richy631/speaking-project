@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/yangyu/myslidingmenudemo02/Speaker.java" />
+        <ignore path="src/com/yangyu/myslidingmenudemo02/scene_select.java" />
+        <ignore path="src/com/yangyu/myslidingmenudemo02/scroll_words.java" />
+    </issue>
+    <issue id="ResourceAsColor">
+        <ignore path="src/com/yangyu/myslidingmenudemo02/MainActivity.java" />
+        <ignore path="src/com/yangyu/myslidingmenudemo02/Setting.java" />
+        <ignore path="src/com/yangyu/myslidingmenudemo02/scene_select.java" />
+    </issue>
+    <issue id="SuspiciousImport">
+        <ignore path="src/GIFplayer/PowerImageView.java" />
+    </issue>
+</lint>

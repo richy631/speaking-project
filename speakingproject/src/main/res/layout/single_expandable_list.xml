@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical">
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list0"
+	android:layout_height="wrap_content"
+	android:background="#ff9933"
+	android:layout_width="wrap_content"/>
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list1"
+	android:layout_height="wrap_content"
+	android:background="#ff6699"
+	android:layout_width="wrap_content"/>
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list2"
+	android:layout_height="wrap_content"
+	android:background="#ff0099"
+	android:layout_width="wrap_content"/>
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list3"
+	android:layout_height="wrap_content"
+	android:background="#cc3333"
+	android:layout_width="wrap_content"/>
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list4"
+	android:layout_height="wrap_content"
+	android:background="#cc33cc"
+	android:layout_width="wrap_content"/>
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list5"
+	android:layout_height="wrap_content"
+	android:background="#99ff99"
+	android:layout_width="wrap_content"/>
+<com.tjerkw.slideexpandable.library.ActionSlideExpandableListView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list6"
+	android:layout_height="wrap_content"
+	android:background="#6699ff"
+	android:layout_width="wrap_content"/>
+
+</LinearLayout>
+	

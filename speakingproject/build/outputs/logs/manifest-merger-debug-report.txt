@@ -1,0 +1,62 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:7:22-64
+uses-sdk
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [speaking-project4:library:unspecified] D:\Android_project\speaking-project4\speakingproject\build\intermediates\exploded-aar\speaking-project4\library\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml
+application
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:12:5-30:19
+	android:label
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:14:9-38
+	android:theme
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:16:9-40
+activity#com.yangyu.myslidingmenudemo02.MainActivity
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:19:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:24:27-74
+activity#com.yangyu.myslidingmenudemo02.Setting
+ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:27:10-28:20
+	android:name
+		ADDED from D:\Android_project\speaking-project4\speakingproject\src\main\AndroidManifest.xml:27:20-73

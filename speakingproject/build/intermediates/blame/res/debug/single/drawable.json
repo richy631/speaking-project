@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\left.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\left.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\left_while_borde_rounded_focused.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\left_while_borde_rounded_focused.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_icon.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\menu_icon.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.gif",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\loading.gif"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\left_while_borde_rounded.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\left_while_borde_rounded.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\right_while_borde_rounded_focused.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\right_while_borde_rounded_focused.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\scene.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\scene.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_right.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\textbutton.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\textbutton.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\arrow_left.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\right_while_borde_rounded.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\right_while_borde_rounded.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\keypad.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\keypad.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\tools.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\tools.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\return_icon.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\return_icon.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\simple_button.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\simple_button.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\right.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\right.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\setting.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\simple_button2.xml",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\simple_button2.xml"
+    },
+    {
+        "merged": "D:\\Android_project\\speaking-project4\\speakingproject\\build\\intermediates\\res\\merged\\debug\\drawable\\voice.png",
+        "source": "D:\\Android_project\\speaking-project4\\speakingproject\\src\\main\\res\\drawable\\voice.png"
+    }
+]

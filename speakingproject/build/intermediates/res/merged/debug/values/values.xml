@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="description">
+        
+    </string-array>
+    <string-array name="pitch">
+        <item>最低</item>
+        <item>低</item>
+        <item>正常</item>
+        <item>高</item>
+        <item>最高</item>
+    </string-array>
+    <string-array name="speakers">
+        <item>男聲</item>
+        <item>女聲</item>
+    </string-array>
+    <string-array name="speed">
+        <item>最慢</item>
+        <item>慢</item>
+        <item>正常</item>
+        <item>快</item>
+        <item>最快</item>
+    </string-array>
+    <string-array name="style">
+        <item>正常</item>
+        <item>機器人聲</item>
+        <item>外國人聲</item>
+    </string-array>
+    <color name="black">#000</color>
+    <color name="blue">#009</color>
+    <color name="bright_gray">#A9A9A9</color>
+    <color name="dark_gray">#EBEBEB</color>
+    <color name="green">#090</color>
+    <color name="menu_dark">#454545</color>
+    <color name="red">#900</color>
+    <color name="simple_blue">#1C86EE</color>
+    <color name="simple_blue_press">#0000FF</color>
+    <color name="white">#FFF</color>
+    <declare-styleable name="PowerImageView"><attr format="boolean" name="auto_play"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <item name="selected_view" type="id"/>
+    <integer name="num_cols">1</integer>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Touch and Speak</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">18dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+    
+</style>
+    <style name="buttonStyle">
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+    </style>
+</resources>

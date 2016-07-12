@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Touch and Speak</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="speakers">
+        <item >男聲</item>
+        <item >女聲</item>
+    </string-array>
+    <string-array name="pitch">
+        <item >最低</item>
+        <item >低</item>
+        <item >正常</item>
+        <item >高</item>
+        <item >最高</item>
+    </string-array>
+    <string-array name="speed">
+        <item >最慢</item>
+        <item >慢</item>
+        <item >正常</item>
+        <item >快</item>
+        <item >最快</item>
+    </string-array>
+    <string-array name="style">
+        <item >正常</item>
+        <item >機器人聲</item>
+        <item >外國人聲</item>
+    </string-array>
+    <string-array name="description">
+        
+    </string-array>
+    
+    
+
+</resources>

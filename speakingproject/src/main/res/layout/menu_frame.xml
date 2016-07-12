@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	  <LinearLayout 
+	    	android:id="@+id/Topdescription"
+	 			android:orientation="horizontal" 
+			    android:layout_width="fill_parent"  
+		   		 android:layout_height="wrap_content" 
+		   		 android:layout_alignParentTop="true"
+        		android:layout_gravity="top"
+        		android:background="#104E8B"
+		   		 >
+    		<TextView 
+    		    android:id="@+id/description"
+    		    android:textSize="30sp"
+    		    android:text="便利語句 :"
+    		    android:textColor="#FFFFFF"
+    		     android:layout_width="match_parent"  
+		   		 android:layout_height="match_parent"
+    		    />
+    		
+	</LinearLayout>
+	<ListView  
+	    android:layout_marginTop="10dp"
+	    android:layout_below="@+id/Topdescription"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/listView"
+    />
+	<Button
+	    android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent" 
+        android:layout_height="60dp"
+        android:text="修改語句"
+        style="@style/buttonStyle"
+        android:background="@drawable/simple_button"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/modifyButton" 
+	    />
+	<RelativeLayout
+	     android:orientation="vertical" 
+	     android:id="@+id/modify_page"
+		 android:layout_width="fill_parent"  
+		 android:layout_height="wrap_content" 
+		 android:layout_below="@+id/Topdescription"
+	     android:layout_marginTop="50dp"
+		 android:visibility="gone"
+		 >
+	     <EditText
+	         	android:id="@+id/modify_target" 
+	         	android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:ems="10"
+		        android:focusable="true"
+		        android:textSize = "25sp"
+		        android:inputType="textMultiLine" />
+	    	<Button
+	        android:layout_width="match_parent" 
+	        android:layout_height="60dp"
+	        android:text="從主畫面導入"
+	        
+	        style="@style/buttonStyle"
+       		android:background="@drawable/simple_button"
+       		
+	        android:layout_below="@+id/modify_target"
+	        android:layout_marginTop="20dp"
+	        android:textSize="25sp"
+	        android:id="@+id/por_tin" 
+		    /> 
+		    <Button
+	        android:layout_width="match_parent" 
+	        android:layout_height="60dp"
+	        
+	        style="@style/buttonStyle"
+       		 android:background="@drawable/simple_button"
+	        
+	        android:text="儲存"
+	        android:layout_below="@+id/por_tin"
+	        android:textSize="25sp"
+	        android:layout_weight="1"
+	        android:id="@+id/save_confirm" 
+		    />
+		    <Button
+	        android:layout_width="match_parent" 
+	        android:layout_height="60dp"
+	        android:layout_below="@+id/save_confirm"
+	        
+	        style="@style/buttonStyle"
+       		 android:background="@drawable/simple_button"
+       		 
+	        android:text="取消"
+	        android:textSize="25sp"
+	        android:layout_weight="1"
+	        android:id="@+id/save_cancel" 
+	        />
+	   
+	</RelativeLayout>
+	     
+	<LinearLayout
+	    android:orientation="horizontal" 
+	    android:id="@+id/modify_layer"
+			    android:layout_width="fill_parent"  
+		   		 android:layout_height="60dp" 
+				android:layout_alignParentBottom="true"
+				android:visibility="gone"
+				
+	    >
+    		<Button
+	        android:layout_width="match_parent" 
+	        android:layout_height="match_parent"
+	        android:text="取消"
+	        android:textSize="25sp"
+	        
+	        style="@style/buttonStyle"
+       		 android:background="@drawable/simple_button"
+       		 
+	        android:layout_weight="1"
+	        android:id="@+id/modify_cancel" 
+		    />
+    		<Button
+	        android:layout_width="match_parent" 
+	        android:layout_height="match_parent"
+	        
+	        style="@style/buttonStyle"
+       		 android:background="@drawable/simple_button"
+	        
+	        android:text="確定"
+	        android:textSize="25sp"
+	        android:layout_weight="1"
+	        android:id="@+id/modify_confirm" 
+		    />
+	    
+	</LinearLayout>
+	
+	
+</RelativeLayout>

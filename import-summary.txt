@@ -1,0 +1,394 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From library:
+* LICENSE.txt
+* build.gradle
+* library.iml
+* pom.xml
+From speaking-project:
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\speaking-project.iml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* SlidingMenu\
+* SlidingMenu\.git\
+* SlidingMenu\.git\HEAD
+* SlidingMenu\.git\config
+* SlidingMenu\.git\description
+* SlidingMenu\.git\hooks\
+* SlidingMenu\.git\hooks\applypatch-msg.sample
+* SlidingMenu\.git\hooks\commit-msg.sample
+* SlidingMenu\.git\hooks\post-update.sample
+* SlidingMenu\.git\hooks\pre-applypatch.sample
+* SlidingMenu\.git\hooks\pre-commit.sample
+* SlidingMenu\.git\hooks\pre-push.sample
+* SlidingMenu\.git\hooks\pre-rebase.sample
+* SlidingMenu\.git\hooks\prepare-commit-msg.sample
+* SlidingMenu\.git\hooks\update.sample
+* SlidingMenu\.git\index
+* SlidingMenu\.git\info\
+* SlidingMenu\.git\info\exclude
+* SlidingMenu\.git\logs\
+* SlidingMenu\.git\logs\HEAD
+* SlidingMenu\.git\logs\refs\
+* SlidingMenu\.git\logs\refs\heads\
+* SlidingMenu\.git\logs\refs\heads\master
+* SlidingMenu\.git\logs\refs\remotes\
+* SlidingMenu\.git\logs\refs\remotes\origin\
+* SlidingMenu\.git\logs\refs\remotes\origin\HEAD
+* SlidingMenu\.git\objects\
+* SlidingMenu\.git\objects\pack\
+* SlidingMenu\.git\objects\pack\pack-31bf58d9079d9296ca0403544e0fc356903d4530.idx
+* SlidingMenu\.git\objects\pack\pack-31bf58d9079d9296ca0403544e0fc356903d4530.pack
+* SlidingMenu\.git\packed-refs
+* SlidingMenu\.git\refs\
+* SlidingMenu\.git\refs\heads\
+* SlidingMenu\.git\refs\heads\master
+* SlidingMenu\.git\refs\remotes\
+* SlidingMenu\.git\refs\remotes\origin\
+* SlidingMenu\.git\refs\remotes\origin\HEAD
+* SlidingMenu\.gitignore
+* SlidingMenu\.project
+* SlidingMenu\LICENSE.txt
+* SlidingMenu\README.md
+* SlidingMenu\art\
+* SlidingMenu\art\Blue\
+* SlidingMenu\art\Blue\Thumbs.db
+* SlidingMenu\art\Blue\hdpi.png
+* SlidingMenu\art\Blue\ldpi.png
+* SlidingMenu\art\Blue\mdpi.png
+* SlidingMenu\art\Blue\xhdpi.png
+* SlidingMenu\art\Green\
+* SlidingMenu\art\Green\Thumbs.db
+* SlidingMenu\art\Green\hdpi.png
+* SlidingMenu\art\Green\ldpi.png
+* SlidingMenu\art\Green\mdpi.png
+* SlidingMenu\art\Green\xhdpi.png
+* SlidingMenu\art\Orange\
+* SlidingMenu\art\Orange\Thumbs.db
+* SlidingMenu\art\Orange\hdpi.png
+* SlidingMenu\art\Orange\ldpi.png
+* SlidingMenu\art\Orange\mdpi.png
+* SlidingMenu\art\Orange\xhdpi.png
+* SlidingMenu\art\Red\
+* SlidingMenu\art\Red\Thumbs.db
+* SlidingMenu\art\Red\hdpi.png
+* SlidingMenu\art\Red\ldpi.png
+* SlidingMenu\art\Red\mdpi.png
+* SlidingMenu\art\Red\xhdpi.png
+* SlidingMenu\art\White\
+* SlidingMenu\art\White\Thumbs.db
+* SlidingMenu\art\White\hdpi.png
+* SlidingMenu\art\White\ldpi.png
+* SlidingMenu\art\White\mdpi.png
+* SlidingMenu\art\White\xhdpi.png
+* SlidingMenu\example\
+* SlidingMenu\example\.classpath
+* SlidingMenu\example\AndroidManifest.xml
+* SlidingMenu\example\example.iml
+* SlidingMenu\example\libs\
+* SlidingMenu\example\libs\crittercism_v3_0_3_sdkonly.jar
+* SlidingMenu\example\proguard\
+* SlidingMenu\example\proguard\dump.txt
+* SlidingMenu\example\proguard\mapping.txt
+* SlidingMenu\example\proguard\seeds.txt
+* SlidingMenu\example\proguard\usage.txt
+* SlidingMenu\example\project.properties
+* SlidingMenu\example\res\
+* SlidingMenu\example\res\drawable-hdpi\
+* SlidingMenu\example\res\drawable-hdpi\ic_action_github.png
+* SlidingMenu\example\res\drawable-hdpi\ic_launcher.png
+* SlidingMenu\example\res\drawable-hdpi\indicator.png
+* SlidingMenu\example\res\drawable-ldpi\
+* SlidingMenu\example\res\drawable-ldpi\ic_action_github.png
+* SlidingMenu\example\res\drawable-ldpi\ic_launcher.png
+* SlidingMenu\example\res\drawable-ldpi\indicator.png
+* SlidingMenu\example\res\drawable-mdpi\
+* SlidingMenu\example\res\drawable-mdpi\ic_action_github.png
+* SlidingMenu\example\res\drawable-mdpi\ic_launcher.png
+* SlidingMenu\example\res\drawable-mdpi\indicator.png
+* SlidingMenu\example\res\drawable-xhdpi\
+* SlidingMenu\example\res\drawable-xhdpi\ic_action_github.png
+* SlidingMenu\example\res\drawable-xhdpi\ic_launcher.png
+* SlidingMenu\example\res\drawable-xhdpi\indicator.png
+* SlidingMenu\example\res\drawable\
+* SlidingMenu\example\res\drawable\eagle.png
+* SlidingMenu\example\res\drawable\flamingo.png
+* SlidingMenu\example\res\drawable\heron.png
+* SlidingMenu\example\res\drawable\new_indicator.xml
+* SlidingMenu\example\res\drawable\octocat.png
+* SlidingMenu\example\res\drawable\octocat_scaled.xml
+* SlidingMenu\example\res\drawable\ostrich.png
+* SlidingMenu\example\res\drawable\peacock.png
+* SlidingMenu\example\res\drawable\penguin.png
+* SlidingMenu\example\res\drawable\shadow.xml
+* SlidingMenu\example\res\drawable\shadowright.xml
+* SlidingMenu\example\res\drawable\toucan.png
+* SlidingMenu\example\res\drawable\turkey.png
+* SlidingMenu\example\res\drawable\vulture.png
+* SlidingMenu\example\res\layout-large-land\
+* SlidingMenu\example\res\layout-large-land\responsive_content_frame.xml
+* SlidingMenu\example\res\layout-xlarge\
+* SlidingMenu\example\res\layout-xlarge\responsive_content_frame.xml
+* SlidingMenu\example\res\layout\
+* SlidingMenu\example\res\layout\content_frame.xml
+* SlidingMenu\example\res\layout\github_button.xml
+* SlidingMenu\example\res\layout\grid_item.xml
+* SlidingMenu\example\res\layout\list.xml
+* SlidingMenu\example\res\layout\list_grid.xml
+* SlidingMenu\example\res\layout\menu.xml
+* SlidingMenu\example\res\layout\menu_frame.xml
+* SlidingMenu\example\res\layout\menu_frame_two.xml
+* SlidingMenu\example\res\layout\pager.xml
+* SlidingMenu\example\res\layout\properties.xml
+* SlidingMenu\example\res\layout\responsive_content_frame.xml
+* SlidingMenu\example\res\layout\row.xml
+* SlidingMenu\example\res\menu\
+* SlidingMenu\example\res\menu\example_list.xml
+* SlidingMenu\example\res\menu\main.xml
+* SlidingMenu\example\res\values-land\
+* SlidingMenu\example\res\values-land\dimens.xml
+* SlidingMenu\example\res\values-large-land\
+* SlidingMenu\example\res\values-large-land\dimens.xml
+* SlidingMenu\example\res\values-large\
+* SlidingMenu\example\res\values-large\dimens.xml
+* SlidingMenu\example\res\values-xlarge-land\
+* SlidingMenu\example\res\values-xlarge-land\dimens.xml
+* SlidingMenu\example\res\values-xlarge\
+* SlidingMenu\example\res\values-xlarge\dimens.xml
+* SlidingMenu\example\res\values\
+* SlidingMenu\example\res\values\array.xml
+* SlidingMenu\example\res\values\colors.xml
+* SlidingMenu\example\res\values\dimens.xml
+* SlidingMenu\example\res\values\strings.xml
+* SlidingMenu\example\res\values\styles.xml
+* SlidingMenu\example\res\xml\
+* SlidingMenu\example\res\xml\main.xml
+* SlidingMenu\example\src\
+* SlidingMenu\example\src\com\
+* SlidingMenu\example\src\com\jeremyfeinstein\
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\AttachExample.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\BaseActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\ExampleListActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\LeftAndRightActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\PropertiesActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\SampleListFragment.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\SlidingContent.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\SlidingTitleBar.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\Util.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\ViewPagerActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\anim\
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\anim\CustomAnimation.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\anim\CustomScaleAnimation.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\anim\CustomSlideAnimation.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\anim\CustomZoomAnimation.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\BirdActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\BirdGridFragment.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\BirdMenuFragment.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\ColorFragment.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\ColorMenuFragment.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\FragmentChangeActivity.java
+* SlidingMenu\example\src\com\jeremyfeinstein\slidingmenu\example\fragments\ResponsiveUIActivity.java
+* SlidingMenu\library-maps-support\
+* SlidingMenu\library-maps-support\LICENSE.txt
+* SlidingMenu\library-maps-support\pom.xml
+* SlidingMenu\library-maps-support\src\
+* SlidingMenu\library-maps-support\src\com\
+* SlidingMenu\library-maps-support\src\com\jeremyfeinstein\
+* SlidingMenu\library-maps-support\src\com\jeremyfeinstein\slidingmenu\
+* SlidingMenu\library-maps-support\src\com\jeremyfeinstein\slidingmenu\lib\
+* SlidingMenu\library-maps-support\src\com\jeremyfeinstein\slidingmenu\lib\app\
+* SlidingMenu\library-maps-support\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingMapActivity.java
+* SlidingMenu\library\
+* SlidingMenu\library\.classpath
+* SlidingMenu\library\AndroidManifest.xml
+* SlidingMenu\library\LICENSE.txt
+* SlidingMenu\library\build.gradle
+* SlidingMenu\library\library.iml
+* SlidingMenu\library\libs\
+* SlidingMenu\library\libs\android-support-v4.jar
+* SlidingMenu\library\pom.xml
+* SlidingMenu\library\project.properties
+* SlidingMenu\library\res\
+* SlidingMenu\library\res\layout\
+* SlidingMenu\library\res\layout\slidingmenumain.xml
+* SlidingMenu\library\res\values\
+* SlidingMenu\library\res\values\attrs.xml
+* SlidingMenu\library\res\values\ids.xml
+* SlidingMenu\library\src\
+* SlidingMenu\library\src\com\
+* SlidingMenu\library\src\com\jeremyfeinstein\
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\CustomViewBehind.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\MenuInterface.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivity.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityBase.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingFragmentActivity.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingListActivity.java
+* SlidingMenu\library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingPreferenceActivity.java
+* SlidingMenu\pom.xml
+* ic_launcher-web.png
+* library\
+* library\.classpath
+* library\.project
+* library\AndroidManifest.xml
+* library\LICENSE.txt
+* library\bin\
+* library\bin\AndroidManifest.xml
+* library\bin\R.txt
+* library\bin\classes\
+* library\bin\classes\com\
+* library\bin\classes\com\jeremyfeinstein\
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$1.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$2.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$3.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$4.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$5.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder$6.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$1.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$2.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$OnPageChangeListener.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove$SimpleOnPageChangeListener.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\CustomViewBehind.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\MenuInterface.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\R$attr.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\R$id.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\R$layout.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\R$styleable.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\R.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$1.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$2.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$CanvasTransformer.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnCloseListener.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnClosedListener.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenListener.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$OnOpenedListener.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState$1.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu$SavedState.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivity.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityBase.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper$1.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingFragmentActivity.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingListActivity.class
+* library\bin\classes\com\jeremyfeinstein\slidingmenu\lib\app\SlidingPreferenceActivity.class
+* library\bin\jarlist.cache
+* library\bin\library.jar
+* library\build.gradle
+* library\gen\
+* library\gen\com\
+* library\gen\com\jeremyfeinstein\
+* library\gen\com\jeremyfeinstein\slidingmenu\
+* library\gen\com\jeremyfeinstein\slidingmenu\lib\
+* library\gen\com\jeremyfeinstein\slidingmenu\lib\BuildConfig.java
+* library\gen\com\jeremyfeinstein\slidingmenu\lib\R.java
+* library\library.iml
+* library\libs\
+* library\libs\android-support-v4.jar
+* library\pom.xml
+* library\project.properties
+* library\res\
+* library\res\layout\
+* library\res\layout\slidingmenumain.xml
+* library\res\values\
+* library\res\values\attrs.xml
+* library\res\values\ids.xml
+* library\src\
+* library\src\com\
+* library\src\com\jeremyfeinstein\
+* library\src\com\jeremyfeinstein\slidingmenu\
+* library\src\com\jeremyfeinstein\slidingmenu\lib\
+* library\src\com\jeremyfeinstein\slidingmenu\lib\CanvasTransformerBuilder.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\CustomViewAbove.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\CustomViewBehind.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\MenuInterface.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\SlidingMenu.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivity.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityBase.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingActivityHelper.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingFragmentActivity.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingListActivity.java
+* library\src\com\jeremyfeinstein\slidingmenu\lib\app\SlidingPreferenceActivity.java
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In library:
+* AndroidManifest.xml => library\src\main\AndroidManifest.xml
+* res\ => library\src\main\res\
+* src\ => library\src\main\java\
+In speaking-project:
+* AndroidManifest.xml => speakingproject\src\main\AndroidManifest.xml
+* lint.xml => speakingproject\lint.xml
+* res\ => speakingproject\src\main\res\
+* src\ => speakingproject\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
